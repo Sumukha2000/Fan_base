@@ -1,0 +1,21 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<link rel="stylesheet" href="/app.css">
+
+<div class="flex-container">
+    <div class="container">
+        <h1>LINUX CLUB</h1>
+        <p class="lead">Enter your details to join <strong><%= count %></strong> others on our linux fan(XD) cum development club. </p>
+        <form method="POST" action='/register'>
+
+            <input type="name" name="name" id="form" placeholder="Enter your name"><br>  
+            <input type="text" name="email" id="form" placeholder="Enter Your Email"><br><br>
+            <button onclick="thankYou()">Join Now</button>
+        </form>
+    </div>
+</div>
+<script>
+    function thankYou()
+{
+    alert("Thank you for registering! click enter");
+}
+</script>
